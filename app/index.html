@@ -51,11 +51,18 @@
 
 
       <div ng-view=""></div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-user"></span> from Sgetech team</p>
+      <div class="footer" style="text-align: right;">
+        <div class="direction arg" itemscope="" itemtype="http://schema.org/LocalBusiness">
+        <div class="hidden" itemprop="name">Sgetech - Buenos Aires</div>
+        <div class="contactData" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+          <h5 itemprop="streetAddress">Av Triunvirato 3919, Piso 2</h5>
+          <span itemprop="addressLocality">Ciudad Autónoma de Buenos Aires</span>,
+          <span itemprop="postalCode">CP1431</span>,
+          <span itemprop="addressCountry">ARG</span>
+        </div>
+        <span itemprop="telephone">+(54) 11-4522-1150</span>
+        </div>
       </div>
-    </div>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -89,7 +96,7 @@
     <script src="../bower_components/angular-route/angular-route.js"></script>
     <script src="../bower_components/angular-strap/dist/angular-strap.min.js"></script>
     <script src="../bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
-    <script src="../bower_components/carousel/ui-bootstrap-tpls-0.11.2.min.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
 
     <!-- endbower -->
@@ -107,5 +114,7 @@
         <script src="scripts/controllers/lynconline.js"></script>
         <script src="scripts/controllers/whoweare.js"></script>
         <!-- endbuild -->
+
+</div>
 </body>
 </html>
