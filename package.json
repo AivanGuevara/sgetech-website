@@ -17,11 +17,21 @@
   },
   "homepage": "https://github.com/AivanGuevara/sgetech-website",
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "^0.4.5",
     "grunt-karma": "~0.9.0",
     "karma-phantomjs-launcher": "~0.1.4",
     "karma": "~0.12.23",
     "karma-jasmine": "~0.1.5",
-    "bootstrap": "~3.2.0"
+    "bootstrap": "~3.2.0",
+    "connect": "^3.2.0",
+    "compression": "^1.1.0",
+    "cookie-session": "^1.0.2",
+    "body-parser": "^1.9.0"
+  },
+  "dependencies": {
+    "express": "^4.9.5",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0",
+    "jshint-stylish": "^1.0.0"
   }
 }
